@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.dineshbalajivenkataraman.views.CheckBoxDisplay">
+    <TextView
+        android:id="@+id/quest_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:text="@string/Question_checkbox"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/checkBox_option_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="@string/CheckBox_option_1"
+        android:textSize="24sp" />
+    <CheckBox
+        android:id="@+id/checkBox_option_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="@string/checkBox_option_2"
+        android:textSize="24sp" />
+    <CheckBox
+        android:id="@+id/checkBox_option_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/checkBox_option_3"
+        android:textSize="24sp" />
+    <CheckBox
+        android:id="@+id/checkBox_option_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/checkBox_option_4"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.03"
+        android:text="@string/next_button" />
+</LinearLayout>

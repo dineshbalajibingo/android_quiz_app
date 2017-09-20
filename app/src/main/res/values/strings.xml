@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="historyquiz">History Quiz</string>
+    <string name="sciencequiz">Science Quiz</string>
+    <string name="computerquiz">Computer Quiz</string>
+ <!--Options for Multiple Choice-->
+    <string name="answer_two">Ans Two</string>
+    <string name="answer_one">Ans One</string>
+    <string name="answer_three">Ans Three</string>
+    <string name="answer_four">Ans Four</string>
+    <string name="question">Question</string>
+    <string name="next">Next</string>
+    <!--Options for Check box-->
+    <string name="checkBox_option_2">Ans Two</string>
+    <string name="CheckBox_option_1">Ans One</string>
+    <string name="checkBox_option_3">Ans Three</string>
+    <string name="checkBox_option_4">Ans Four</string>
+    <string name="Question_checkbox">Question</string>
+    <string name="next_button">Next</string>
+    <!--Option for Inout Box-->
+   <string name="input_answer">Your Answer</string>
+   <string name="input_question">Question</string>
+   <string name="input_submit">Submit</string>
+    <!--Score Screen-->
+    <string name="score">Score</string>
+    <string name="score_total">00</string>
+    <string name="back_to_home">Back To Home</string>
+  </resources>
